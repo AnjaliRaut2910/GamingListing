@@ -15,7 +15,7 @@ function Header() {
   return (
     <>
       <div className="flex items-center p-3">
-        <img src={logo} alt="" className="w-20 h-20" />
+        <img src={logo} alt="" width={60} height={60} />
         <div className="flex bg-slate-200 p-2 w-full items-center mx-5 rounded-full">
           <HiOutlineSearch />
           <input type="text" className="bg-transparent outline-none mx-5" placeholder="Search Games" />
